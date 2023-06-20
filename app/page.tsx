@@ -66,7 +66,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between sm:p-24 p-4">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm">
-        <h1 className="text-4xl p-4 text-center">Expence Tracker</h1>
+        <h1 className="text-white text-4xl p-4 text-center">Expence Tracker</h1>
         <div className="bg-slate-800 p-4 rounded-lg">
           <form className="grid grid-cols-6 items-center text-black">
             <input
@@ -89,7 +89,7 @@ export default function Home() {
             />
             <button
               className="text-white bg-slate-950 hover:bg-slate-900 p-3 text-xl"
-              onClick={() => addItem}
+              onClick={(e) => addItem(e)}
             >
               +
             </button>
