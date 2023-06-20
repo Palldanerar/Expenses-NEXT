@@ -1,6 +1,7 @@
 interface IItem {
+  id: string;
   title: string;
-  price: number;
+  price: string;
 }
 
 export default IItem;
